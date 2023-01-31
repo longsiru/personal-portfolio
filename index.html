@@ -3,10 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scapreloaderle=1.0" />
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
   </head>
-  <body>
+
+  <body class="loaded">
     <div class="site-preloader">
       <div class="spinner"></div>
     </div>
@@ -17,7 +25,7 @@
           <div class="primary-header-inner">
             <div class="header-logo">
               <a href="index.html">
-                <img class="logo" src="assets/img/logo.png" alt="Logo" />
+                <img class="logo" src="images/logo.png" alt="Logo" />
               </a>
             </div>
             <!-- /.header-logo -->
@@ -46,7 +54,15 @@
               <div class="search-icon dl-search-icon">
                 <i class="las la-search"></i>
               </div>
-              <a class="default-btn" href="contact.html">Join Our Team</a>
+              <!-- <a class="default-btn" href="#">Log in</a> -->
+              <ul>
+                <li class="nav-item mr-1 ml-0">
+                  <a class="nav-link login_btn" href="login.html">Log in</a>
+                </li>
+                <li class="nav-item ml-0">
+                  <a class="nav-link signup_btn" href="signup.html">Sign Up</a>
+                </li>
+              </ul>
 
               <!-- Burger menu -->
               <div class="mobile-menu-icon">
@@ -92,7 +108,7 @@
             True Gamers!
           </h1>
           <div class="btn-group">
-            <a href="contact.html" class="default-btn">Join With Us</a>
+            <a href="signup.html" class="default-btn">Join With Us</a>
             <a
               data-autoplay="true"
               data-vbtype="video"
@@ -111,7 +127,7 @@
             </a>
           </div>
           <div class="hero-element">
-            <img src="assets/img/game-charecters.png" alt="thumb" />
+            <img src="images/about-characters.png" alt="thumb" />
             <div class="shape-wrap">
               <div class="shape shape-1"></div>
               <div class="shape shape-2"></div>
@@ -153,12 +169,12 @@
             <div
               class="participate-team wow fade-in-left"
               data-wow-delay="200ms">
-              <img src="assets/img/team-logo-1.png" alt="team" />
+              <img src="images/team-logo-1.png" alt="team" />
               <h3><a href="team-details.html">Purple Death Cadets</a></h3>
-              <div class="match-info">Group 04 | Match 06th</div>
+              <div class="match-info">Group 04 | Rank 07</div>
             </div>
             <div class="match-time">
-              <h3>10:00 <span>25TH May 2024</span></h3>
+              <h3>10:00 <span>2023-02-10</span></h3>
               <ul class="watch-btn">
                 <li>
                   <a
@@ -184,21 +200,22 @@
               class="participate-team oponent wow fade-in-right"
               data-wow-delay="200ms">
               <h3><a href="team-details.html">Trigger Brain Squad</a></h3>
-              <div class="match-info">Group 04 | Match 06th</div>
-              <img src="assets/img/team-logo-2.png" alt="team" />
+              <div class="match-info">Group 04 | Rank 01</div>
+              <img src="images/team-logo-2.png" alt="team" />
             </div>
           </li>
           <!-- /.matches-list-1 -->
+
           <li class="matches-list">
             <div
               class="participate-team wow fade-in-left"
               data-wow-delay="400ms">
-              <img src="assets/img/team-logo-3.png" alt="team" />
+              <img src="images/team-logo-3.png" alt="team" />
               <h3><a href="team-details.html">The Black Hat Hackers</a></h3>
-              <div class="match-info">Group 04 | Match 06th</div>
+              <div class="match-info">Group 04 | Rank 06</div>
             </div>
             <div class="match-time">
-              <h3>12:30 <span>10TH Jan 2024</span></h3>
+              <h3>12:30 <span>2023-02-10</span></h3>
               <ul class="watch-btn">
                 <li>
                   <a
@@ -224,74 +241,361 @@
               class="participate-team oponent wow fade-in-right"
               data-wow-delay="400ms">
               <h3><a href="team-details.html">Your Worst Nightmare</a></h3>
-              <div class="match-info">Group 05 | Match 02nd</div>
-              <img src="assets/img/team-logo-4.png" alt="team" />
+              <div class="match-info">Group 05 | Rank 02</div>
+              <img src="images/team-logo-4.png" alt="team" />
             </div>
           </li>
           <!-- /.matches-list-2 -->
-          <li class="matches-list">
-            <div
-              class="participate-team wow fade-in-left"
-              data-wow-delay="600ms">
-              <img src="assets/img/team-logo-5.png" alt="team" />
-              <h3><a href="team-details.html">Witches and Quizards</a></h3>
-              <div class="match-info">Group 02 | Match 03rd</div>
-            </div>
-            <div class="match-time">
-              <h3>04:20 <span>15TH Dec 2024</span></h3>
-              <ul class="watch-btn">
-                <li>
-                  <a
-                    class="dl-video-popup"
-                    data-autoplay="true"
-                    data-vbtype="video"
-                    href="https://www.youtube.com/watch?v=tv7LfFeamsc"
-                    ><i class="lab la-youtube"></i
-                  ></a>
-                </li>
-                <li>
-                  <a
-                    class="dl-video-popup"
-                    data-autoplay="true"
-                    data-vbtype="video"
-                    href="https://www.youtube.com/watch?v=tv7LfFeamsc"
-                    ><i class="lab la-twitch"></i
-                  ></a>
-                </li>
-              </ul>
-            </div>
-            <div
-              class="participate-team oponent wow fade-in-right"
-              data-wow-delay="600ms">
-              <h3><a href="team-details.html">Resting Bitch Faces</a></h3>
-              <div class="match-info">Group 02 | Match 03rd</div>
-              <img src="assets/img/team-logo-6.png" alt="team" />
-            </div>
-          </li>
-          <!-- /.matches-list-3 -->
         </ul>
       </div>
     </section>
     <!-- /.matches-section -->
 
     <!-- section 3 -->
-    <section></section>
+    <section class="team-section padding-bottom">
+      <div class="container">
+        <div
+          class="section-heading text-center mb-40 wow fade-in-bottom"
+          data-wow-delay="200ms">
+          <h3>Our Gammers</h3>
+          <h2>Meet Our <span>Gamers</span></h2>
+          <p>
+            Our success in creating business solutions is due in large part
+            <br />to our talented and highly committed team.
+          </p>
+        </div>
+        <div class="outside-spacing">
+          <div class="team-carousel">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="team-item">
+                  <div class="team-thumb">
+                    <img src="images/team-1.png" alt="thumb" />
+                    <div class="shape-wrap">
+                      <div class="shape shape-1"></div>
+                      <div class="shape shape-2"></div>
+                      <div class="shape shape-3"></div>
+                      <div class="shape shape-4"></div>
+                    </div>
+                  </div>
+                  <div class="team-content">
+                    <span class="whte-shape"></span>
+                    <h3><a href="player-details.html">Brandon Larned</a></h3>
+                    <h4>Overwatch</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team-item">
+                  <div class="team-thumb">
+                    <img src="images/team-2.png" alt="thumb" />
+                    <div class="shape-wrap">
+                      <div class="shape shape-1"></div>
+                      <div class="shape shape-2"></div>
+                      <div class="shape shape-3"></div>
+                      <div class="shape shape-4"></div>
+                    </div>
+                  </div>
+                  <div class="team-content">
+                    <span class="whte-shape"></span>
+                    <h3><a href="player-details.html">Félix Lengyel</a></h3>
+                    <h4>Valorant</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team-item">
+                  <div class="team-thumb">
+                    <img src="images/team-3.png" alt="thumb" />
+                    <div class="shape-wrap">
+                      <div class="shape shape-1"></div>
+                      <div class="shape shape-2"></div>
+                      <div class="shape shape-3"></div>
+                      <div class="shape shape-4"></div>
+                    </div>
+                  </div>
+                  <div class="team-content">
+                    <span class="whte-shape"></span>
+                    <h3><a href="player-details.html">Sasha Hostyn</a></h3>
+                    <h4>StarCraft II</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team-item">
+                  <div class="team-thumb">
+                    <img src="images/team-4.png" alt="thumb" />
+                    <div class="shape-wrap">
+                      <div class="shape shape-1"></div>
+                      <div class="shape shape-2"></div>
+                      <div class="shape shape-3"></div>
+                      <div class="shape shape-4"></div>
+                    </div>
+                  </div>
+                  <div class="team-content">
+                    <span class="whte-shape"></span>
+                    <h3><a href="player-details.html">Zaqueri Black</a></h3>
+                    <h4>Call of Duty</h4>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="team-item">
+                  <div class="team-thumb">
+                    <img src="images/team-5.png" alt="thumb" />
+                    <div class="shape-wrap">
+                      <div class="shape shape-1"></div>
+                      <div class="shape shape-2"></div>
+                      <div class="shape shape-3"></div>
+                      <div class="shape shape-4"></div>
+                    </div>
+                  </div>
+                  <div class="team-content">
+                    <span class="whte-shape"></span>
+                    <h3><a href="player-details.html">Fredrik Johanson</a></h3>
+                    <h4>Counter Strike</h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Carousel Arrows -->
+            <div class="swiper-nav swiper-next">
+              <i class="las la-long-arrow-alt-right"></i>
+            </div>
+            <div class="swiper-nav swiper-prev">
+              <i class="las la-long-arrow-alt-left"></i>
+            </div>
+
+            <div class="review-more">
+              <div class="btn-group pt-100">
+                <a href="signup.html" class="default-btn">Review More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.team-section -->
 
     <!-- section 4 -->
-    <section></section>
+    <!-- Team Member start -->
+    <!-- <section class="team-member" id="team">
+      <div class="overlay pt-120 pb-120">
+        <div class="container wow fadeInUp">
+          <div class="row justify-content-center">
+            <div class="col-md-8 col-xl-7 col-xxl-6">
+              <div class="section-header text-center">
+                <h5 class="sub-title">We have a passion for games!</h5>
+                <h2 class="title">Great Game Made By Passionate People</h2>
+                <p>
+                  Our founding team are veteran individual contributors who have
+                  a passion for world-building.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row cus-mar">
+            <div class="team-carousel slick-slider">
+              <div class="single">
+                <div class="single-box">
+                  <div class="profile-image">
+                    <img src="images/team-1.png" alt="image" />
+                  </div>
+                  <div class="info-area text-center">
+                    <h5>Grant Owen</h5>
+                    <p class="mdr">Co-founder Game/Systems Designer</p>
+                    <div class="social text-center">
+                      <ul
+                        class="d-flex align-items-center justify-content-center">
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="fb fab fa-facebook-f"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="in fab fa-linkedin-in"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="tw fab fa-twitter"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="ins fab fa-instagram"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single">
+                <div class="single-box">
+                  <div class="profile-image">
+                    <img src="images/team-2.png" alt="image" />
+                  </div>
+                  <div class="info-area text-center">
+                    <h5>Wilma Reid</h5>
+                    <p class="mdr">Illustrator Concept Artist Designer</p>
+                    <div class="social text-center">
+                      <ul
+                        class="d-flex align-items-center justify-content-center">
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="fb fab fa-facebook-f"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="in fab fa-linkedin-in"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="tw fab fa-twitter"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="ins fab fa-instagram"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single">
+                <div class="single-box">
+                  <div class="profile-image">
+                    <img src="images/team-3.png" alt="image" />
+                  </div>
+                  <div class="info-area text-center">
+                    <h5>Vincent Paul</h5>
+                    <p class="mdr">Level Design Environment Art</p>
+                    <div class="social text-center">
+                      <ul
+                        class="d-flex align-items-center justify-content-center">
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="fb fab fa-facebook-f"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="in fab fa-linkedin-in"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="tw fab fa-twitter"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="ins fab fa-instagram"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single">
+                <div class="single-box">
+                  <div class="profile-image">
+                    <img src="images/team-4.png" alt="image" />
+                  </div>
+                  <div class="info-area text-center">
+                    <h5>David Byrd</h5>
+                    <p class="mdr">Gameplay Engineer Systems Design</p>
+                    <div class="social text-center">
+                      <ul
+                        class="d-flex align-items-center justify-content-center">
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="fb fab fa-facebook-f"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="in fab fa-linkedin-in"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="tw fab fa-twitter"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="ins fab fa-instagram"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single">
+                <div class="single-box">
+                  <div class="profile-image">
+                    <img src="images/team-5.png" alt="image" />
+                  </div>
+                  <div class="info-area text-center">
+                    <h5>Vincent Paul</h5>
+                    <p class="mdr">Level Design Environment Art</p>
+                    <div class="social text-center">
+                      <ul
+                        class="d-flex align-items-center justify-content-center">
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="fb fab fa-facebook-f"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="in fab fa-linkedin-in"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="tw fab fa-twitter"></i
+                          ></a>
+                        </li>
+                        <li>
+                          <a href="javascript:void(0)"
+                            ><i class="ins fab fa-instagram"></i
+                          ></a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- Team Member end -->
 
     <!--footer-section-->
     <footer class="footer-section">
       <div class="container">
         <div class="row footer-items">
-          <div class="col-lg-3 col-sm-6 sm-padding">
+          <div class="col-lg-4 col-sm-6 sm-padding">
             <div class="footer-item">
               <a class="brand" href="index.html"
-                ><img src="assets/img/logo.png" alt="logo"
+                ><img src="images/logo.png" alt="logo"
               /></a>
               <p>
-                Our success in creating business solutions is due in large part
-                to our talented and highly committed team.
+                Our success in creating business is<br />
+                due in large part to our talented and<br />
+                highly committed team.
               </p>
               <ul class="social-list">
                 <li>
@@ -309,7 +613,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6 sm-padding">
+          <div class="col-lg-4 col-sm-6 sm-padding">
             <div class="footer-item footer-list">
               <div class="widget-title">
                 <h3>Usefull Links</h3>
@@ -323,7 +627,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6 sm-padding">
+          <div class="col-lg-4 col-sm-6 sm-padding">
             <div class="footer-item">
               <div class="widget-title">
                 <h3>Contact Us</h3>
@@ -338,39 +642,20 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6 sm-padding">
-            <div class="footer-item subscribe-wrap">
-              <div class="widget-title">
-                <h3>Newsletter Signup</h3>
-              </div>
-              <form action="#" class="subscribe-form">
-                <input
-                  class="form-control"
-                  type="email"
-                  name="email"
-                  placeholder="Your Email"
-                  required="" />
-                <input type="hidden" name="action" value="mailchimpsubscribe" />
-                <button class="submit">Subscribe Now</button>
-                <div class="clearfix"></div>
-                <div id="subscribe-result">
-                  <div class="subscription-success"></div>
-                  <div class="subscription-error"></div>
-                </div>
-              </form>
-            </div>
-          </div>
         </div>
       </div>
-      <div class="copyright-wrap">
-        <div class="container">
-          <p>
-            © <span id="currentYear"></span> ThemeEaster All Rights by
-            <a href="Http://www.bootstrapmb.com">bootstrapMB</a>.
-          </p>
-        </div>
-      </div>
+      <div class="copyright-wrap"></div>
       <!--copyright-wrap-->
     </footer>
+
+    <div id="scrollup">
+      <button id="scroll-top" class="scroll-to-top hover-target">
+        <i class="las la-arrow-up"></i>
+      </button>
+    </div>
+    <!--scrollup-->
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>

@@ -1,0 +1,164 @@
+/* Login Page Style  */
+/* Login Page Login Form Section Style  */
+
+.login-form {
+  min-height: 100vh;
+  background-image: url("../images/body-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.login-form .login-form-title {
+  margin-bottom: 40px !important;
+}
+.login-form .login-page-logo {
+  margin-bottom: 25px;
+}
+.login-form .login-form-box {
+  width: 450px;
+  margin: 0 auto;
+  position: relative;
+}
+.login-form .login-card .form-control:focus {
+  box-shadow: none;
+}
+.login-form .login-card label {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-bottom: 13px;
+}
+.login-form .login-card {
+  padding: 30px;
+  margin-bottom: 30px;
+  line-height: 0.8;
+  border: 3px solid rgb(130, 66, 202);
+  background-color: var(--e-global-color-very-dark-black);
+}
+.login-form .login-card .input-field {
+  font-family: "Barlow", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  height: 61px;
+  line-height: 61px;
+  padding: 0 21px;
+  border-radius: 0;
+  background-color: transparent;
+  color: rgb(204, 190, 218);
+  border: 1px solid rgb(118, 90, 119);
+}
+.login-form .login-card .input-field:focus {
+  outline: none;
+  box-shadow: none;
+}
+.login-form .login-card .btn-primary {
+  font-family: "Barlow", sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 500;
+  padding: 18px 23px;
+  margin-bottom: 16px;
+  width: 100%;
+  text-decoration: none;
+  display: inline-block;
+  color: rgb(243, 242, 245);
+  background-color: rgb(81, 23, 136);
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 0;
+}
+.login-form .login-card .btn-primary:hover {
+  background-color: transparent;
+  border: 2px solid var(--e-global-color-accent);
+}
+.login-form .login-card .btn-primary:focus {
+  outline: none;
+  box-shadow: none;
+}
+.login-form .login-card .forgot-password {
+  color: var(--e-global-color-accent);
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+}
+.login-form .login-card .forgot-password:hover {
+  text-decoration: underline;
+}
+.login-form .login-form-box .join-now-outer a {
+  font-size: 18px;
+  line-height: 18px;
+  text-decoration: underline;
+}
+.login-form .login-form-box .join-now-outer a:hover {
+  text-decoration: underline;
+}
+.login-form .login-card .select-option option {
+  font-size: 16px;
+  background-color: var(--e-global-color-dark-grayish-blue);
+}
+
+.login-form .login-page-logo img {
+  width: 200px;
+}
+
+.login-form .login-card .btn-primary {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.login-form .login-form-box .join-now-outer a {
+  font-size: 16px;
+}
+
+.login-form .login-form-box {
+  width: 450px;
+}
+
+.login-form .login-card .btn-primary {
+  font-size: 14px;
+  line-height: 14px;
+  padding: 14px 20px;
+}
+.login-form .login-card label {
+  font-size: 14px;
+}
+.login-form .login-card .forgot-password {
+  font-size: 14px;
+}
+.login-form .login-card .input-field {
+  font-size: 14px;
+  padding: 0 15px;
+  height: 46px;
+  line-height: 46px;
+}
+
+.login-form .login-form-box .join-now-outer a {
+  font-size: 14px;
+}
+
+.login-form .login-page-logo {
+  margin-bottom: 20px;
+}
+
+/* Sign Up Page Style */
+
+/* Sign Up Page Sign-Up Form Section Style */
+.sign-up-form {
+  padding: 70px 0;
+}
+.sign-up-form .login-form-box {
+  width: 700px;
+}
+.sign-up-form .login-card label small {
+  font-size: 14px;
+}
+.sign-up-form .login-card .select-option {
+  padding: 0 40px 0 21px;
+  -webkit-appearance: none;
+  background-repeat: no-repeat !important;
+  background-position: 96.5% 26px !important;
+  background-image: url("../images/dropdown-arrow.png") !important;
+}
+.sign-up-form .login-card .select-option:focus {
+  outline: none;
+  box-shadow: none;
+}
