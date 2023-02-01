@@ -1,0 +1,146 @@
+ul {
+  list-style: none;
+}
+.hide {
+  display: none;
+}
+.lf {
+  float: left;
+}
+.lr {
+  float: right;
+}
+.red,
+.red a,
+.red a h5,
+.red a p {
+  color: #ff0000 !important;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.mr2 {
+  margin-right: 1rem;
+}
+.ml2 {
+  margin-left: 1rem;
+}
+section .team-card {
+  width: 1320px;
+}
+
+.main-group {
+  display: block;
+  width: 1320px;
+}
+
+.main-group .item-group {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  background: #07092e;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+}
+.main-group .item-group:before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  transform: skew(2deg, 2deg);
+  z-index: -1;
+}
+
+.main-group .item-group:nth-child(4n + 1):before {
+  background: linear-gradient(315deg, #ff0055, #da4112);
+}
+.main-group .item-group:nth-child(4n + 2):before {
+  background: linear-gradient(315deg, #06b36b, #19e63b);
+}
+.main-group .item-group:nth-child(4n + 3):before {
+  background: linear-gradient(315deg, #7108ad, #db1869);
+}
+.main-group .item-group:nth-child(4n + 4):before {
+  background: linear-gradient(315deg, #eecb04, #e62019);
+}
+
+.item-group .content {
+  position: relative;
+  padding: 20px;
+  transform: translateY(26px);
+}
+
+.item-group .content img {
+  position: absolute;
+  top: 60px;
+  right: 1px;
+  font-size: 14em;
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.item-group:hover .content img {
+  top: -40px;
+}
+
+.item-group .content .title {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.item-group .content .button-group {
+  position: relative;
+  margin-top: 50px;
+  padding: 2px 20px;
+  border: 1px solid #fff;
+  display: inline-block;
+  transition: 0.5s;
+  transform: translateY(-40px);
+  opacity: 0;
+  visibility: hidden;
+  color: #fff;
+  font-size: 12px;
+  left: 10px;
+}
+
+.item-group:hover .content .button-group {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+.item-group .content .button-group:hover {
+  color: #000;
+  background: #fff;
+}
+
+.pagination-page {
+  text-align: center;
+}
+
+/* team detail */
+
+.page-header .page-header-shape .shape.center.back.teamdetail {
+  clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+  width: 800px;
+  height: 50px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  opacity: 0.5;
+  border-radius: 2px;
+  z-index: -1;
+}
+
+.teamdetail-info li {
+  display: inline-block;
+  margin-left: 40px;
+}

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/swiper.min.css" />
     <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
   </head>
 
   <body class="loaded">
@@ -30,39 +31,47 @@
             </div>
             <!-- /.header-logo -->
             <div class="header-menu-wrap">
-              <ul class="nav-menu">
-                <li class="active">
-                  <a href="index.html">HOME</a>
-                </li>
-                <li>
-                  <a href="#">MATCH</a>
-                </li>
-                <li>
-                  <a href="#">TEAM</a>
-                </li>
-                <li>
-                  <a href="#">GAMER</a>
-                </li>
-                <li>
-                  <a href="#">BLOG</a>
-                </li>
-                <li><a href="#">SHOP</a></li>
-              </ul>
+              <div class="header-nav-menu">
+                <ul class="nav-menu">
+                  <li class="active">
+                    <a href="index.html">HOME</a>
+                  </li>
+                  <li>
+                    <a href="match.html">MATCH</a>
+                  </li>
+                  <li>
+                    <a href="team.html">TEAM</a>
+                  </li>
+                  <li>
+                    <a href="gamer.html">GAMER</a>
+                  </li>
+                  <li>
+                    <a href="post.html">POST</a>
+                  </li>
+                  <li><a href="#">SHOP</a></li>
+                </ul>
+              </div>
+              <div class="nav-bnt">
+                <ul>
+                  <li class="nav-item mr-1 ml-0">
+                    <a class="nav-link login_btn" href="login.html">Log in</a>
+                  </li>
+                  <li class="nav-item ml-0">
+                    <a class="nav-link signup_btn" href="signup.html"
+                      >Sign Up</a
+                    >
+                  </li>
+                </ul>
+              </div>
             </div>
             <!-- /.header-menu-wrap -->
             <div class="header-right">
-              <div class="search-icon dl-search-icon">
-                <i class="las la-search"></i>
+              <div>
+                <img
+                  src="images/search-icon.png"
+                  alt=""
+                  class="searches-icon" />
               </div>
-              <!-- <a class="default-btn" href="#">Log in</a> -->
-              <ul>
-                <li class="nav-item mr-1 ml-0">
-                  <a class="nav-link login_btn" href="login.html">Log in</a>
-                </li>
-                <li class="nav-item ml-0">
-                  <a class="nav-link signup_btn" href="signup.html">Sign Up</a>
-                </li>
-              </ul>
 
               <!-- Burger menu -->
               <div class="mobile-menu-icon">
@@ -170,7 +179,7 @@
               class="participate-team wow fade-in-left"
               data-wow-delay="200ms">
               <img src="images/team-logo-1.png" alt="team" />
-              <h3><a href="team-details.html">Purple Death Cadets</a></h3>
+              <h3><a href="team-detail.html">Purple Death Cadets</a></h3>
               <div class="match-info">Group 04 | Rank 07</div>
             </div>
             <div class="match-time">
@@ -199,7 +208,7 @@
             <div
               class="participate-team oponent wow fade-in-right"
               data-wow-delay="200ms">
-              <h3><a href="team-details.html">Trigger Brain Squad</a></h3>
+              <h3><a href="team-detail.html">Trigger Brain Squad</a></h3>
               <div class="match-info">Group 04 | Rank 01</div>
               <img src="images/team-logo-2.png" alt="team" />
             </div>
@@ -211,7 +220,7 @@
               class="participate-team wow fade-in-left"
               data-wow-delay="400ms">
               <img src="images/team-logo-3.png" alt="team" />
-              <h3><a href="team-details.html">The Black Hat Hackers</a></h3>
+              <h3><a href="team-detail.html">The Black Hat Hackers</a></h3>
               <div class="match-info">Group 04 | Rank 06</div>
             </div>
             <div class="match-time">
@@ -240,13 +249,18 @@
             <div
               class="participate-team oponent wow fade-in-right"
               data-wow-delay="400ms">
-              <h3><a href="team-details.html">Your Worst Nightmare</a></h3>
+              <h3><a href="team-detail.html">Your Worst Nightmare</a></h3>
               <div class="match-info">Group 05 | Rank 02</div>
               <img src="images/team-logo-4.png" alt="team" />
             </div>
           </li>
           <!-- /.matches-list-2 -->
         </ul>
+        <div class="review-more">
+          <div class="btn-group pt-50">
+            <a href="gamer.html" class="default-btn">Review More</a>
+          </div>
+        </div>
       </div>
     </section>
     <!-- /.matches-section -->
@@ -264,10 +278,10 @@
             <br />to our talented and highly committed team.
           </p>
         </div>
-        <div class="outside-spacing">
-          <div class="team-carousel">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
+        <div class="gamers-section">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 sm-padding">
                 <div class="team-item">
                   <div class="team-thumb">
                     <img src="images/team-1.png" alt="thumb" />
@@ -280,12 +294,12 @@
                   </div>
                   <div class="team-content">
                     <span class="whte-shape"></span>
-                    <h3><a href="player-details.html">Brandon Larned</a></h3>
-                    <h4>Overwatch</h4>
+                    <h3><a href="gamer-detail.html">Gamer Name</a></h3>
+                    <h4>Team Name</h4>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
+              <div class="col-lg-3 col-md-6 sm-padding">
                 <div class="team-item">
                   <div class="team-thumb">
                     <img src="images/team-2.png" alt="thumb" />
@@ -298,12 +312,12 @@
                   </div>
                   <div class="team-content">
                     <span class="whte-shape"></span>
-                    <h3><a href="player-details.html">Félix Lengyel</a></h3>
-                    <h4>Valorant</h4>
+                    <h3><a href="gamer-detail.html">Gamer Name</a></h3>
+                    <h4>Team Name</h4>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
+              <div class="col-lg-3 col-md-6 sm-padding">
                 <div class="team-item">
                   <div class="team-thumb">
                     <img src="images/team-3.png" alt="thumb" />
@@ -316,12 +330,12 @@
                   </div>
                   <div class="team-content">
                     <span class="whte-shape"></span>
-                    <h3><a href="player-details.html">Sasha Hostyn</a></h3>
-                    <h4>StarCraft II</h4>
+                    <h3><a href="gamer-detail.html">Gamer Name</a></h3>
+                    <h4>Team Name</h4>
                   </div>
                 </div>
               </div>
-              <div class="swiper-slide">
+              <div class="col-lg-3 col-md-6 sm-padding">
                 <div class="team-item">
                   <div class="team-thumb">
                     <img src="images/team-4.png" alt="thumb" />
@@ -334,47 +348,22 @@
                   </div>
                   <div class="team-content">
                     <span class="whte-shape"></span>
-                    <h3><a href="player-details.html">Zaqueri Black</a></h3>
-                    <h4>Call of Duty</h4>
-                  </div>
-                </div>
-              </div>
-              <div class="swiper-slide">
-                <div class="team-item">
-                  <div class="team-thumb">
-                    <img src="images/team-5.png" alt="thumb" />
-                    <div class="shape-wrap">
-                      <div class="shape shape-1"></div>
-                      <div class="shape shape-2"></div>
-                      <div class="shape shape-3"></div>
-                      <div class="shape shape-4"></div>
-                    </div>
-                  </div>
-                  <div class="team-content">
-                    <span class="whte-shape"></span>
-                    <h3><a href="player-details.html">Fredrik Johanson</a></h3>
-                    <h4>Counter Strike</h4>
+                    <h3><a href="gamer-detail.html">Gamer Name</a></h3>
+                    <h4>Team Name</h4>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- Carousel Arrows -->
-            <div class="swiper-nav swiper-next">
-              <i class="las la-long-arrow-alt-right"></i>
-            </div>
-            <div class="swiper-nav swiper-prev">
-              <i class="las la-long-arrow-alt-left"></i>
-            </div>
-
-            <div class="review-more">
-              <div class="btn-group pt-100">
-                <a href="signup.html" class="default-btn">Review More</a>
-              </div>
+          </div>
+          <div class="review-more">
+            <div class="btn-group pt-50">
+              <a href="gamer.html" class="default-btn">Review More</a>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- /.team-section -->
 
     <!-- section 4 -->
@@ -599,16 +588,20 @@
               </p>
               <ul class="social-list">
                 <li>
-                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"
+                    ><img src="images/outline-facebook-icon.png" alt=""
+                  /></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><img src="images/instagram-icon.png" alt="" /></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <a href="#"
+                    ><img src="images/outline-youtube-icon.png" alt=""
+                  /></a>
                 </li>
                 <li>
-                  <a href="#"><i class="fab fa-youtube"></i></a>
+                  <a href="#"><img src="images/twitter-icon.png" alt="" /></a>
                 </li>
               </ul>
             </div>
@@ -655,6 +648,7 @@
     </div>
     <!--scrollup-->
 
+    <script src="js/main.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
   </body>

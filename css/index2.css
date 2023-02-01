@@ -1,0 +1,104 @@
+/* Home Page Header Section Style */
+
+.navbar .navbar-brand {
+  display: none;
+}
+.navbar-collapse ul {
+  text-align: center;
+  align-items: center;
+  display: inherit;
+}
+.navbar-nav .nav-item a {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--e-global-color-white) !important;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-nav .nav-item a:hover {
+  color: var(--e-global-color-accent) !important;
+  background-color: transparent;
+}
+.navbar-nav .active > a {
+  color: var(--e-global-color-white) !important;
+}
+.navbar-nav li.active > a:before {
+  content: "";
+  height: 2px;
+  width: 48px;
+  background-color: var(--e-global-color-accent);
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  z-index: 1;
+  right: 0;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+}
+.navbar-nav .nav-item .login_btn {
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 18px !important;
+  padding: 13px 28px !important;
+  text-align: center;
+  color: var(--e-global-color-white) !important;
+  background-color: var(--e-global-color-mostly-black);
+  transition: all 0.3s ease-in-out;
+}
+.navbar-nav .nav-item .login_btn:hover {
+  color: var(--e-global-color-white) !important;
+  background-color: var(--e-global-color-accent);
+}
+.navbar-nav .nav-item .signup_btn {
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 18px !important;
+  padding: 13px 22px !important;
+  text-align: center;
+  color: var(--e-global-color-white) !important;
+  background-color: var(--e-global-color-accent);
+  transition: all 0.3s ease-in-out;
+}
+.navbar-nav .nav-item .signup_btn:hover {
+  color: var(--e-global-color-white) !important;
+  background-color: var(--e-global-color-mostly-black);
+}
+.nav-link {
+  padding: 0;
+}
+.navbar-brand {
+  margin-left: 70px;
+  margin-right: 45px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.navbar-nav .navbar-brand {
+  display: block;
+}
+.navbar {
+  padding: 30px 0;
+}
+.navbar-nav li {
+  margin: -30px 24px 0 28px;
+}
+.navbar-nav .mr-0,
+.mx-0 {
+  margin-right: 20px !important;
+}
+.navbar-nav .mr-1,
+.mx-1 {
+  margin-right: 15px !important;
+}
+.navbar-expand-lg .navbar-nav a:last-child {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-nav li:first-child {
+  margin-left: 0;
+}
+.navbar-nav li:last-child {
+  margin-right: 0;
+  padding-right: 0;
+  margin-left: 16px;
+}
