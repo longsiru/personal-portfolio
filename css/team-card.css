@@ -26,13 +26,18 @@ a {
 .ml2 {
   margin-left: 1rem;
 }
-section .team-card {
-  width: 1320px;
-}
 
 .main-group {
-  display: block;
-  width: 1320px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 50px 60px;
+  margin: 0 auto;
+  padding-bottom: 100px;
 }
 
 .main-group .item-group {
@@ -143,4 +148,5 @@ section .team-card {
 .teamdetail-info li {
   display: inline-block;
   margin-left: 40px;
+  padding: 0px 20px;
 }

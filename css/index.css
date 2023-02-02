@@ -746,7 +746,10 @@ body.loaded {
   background: #0c0c35;
   clip-path: polygon(0 0, 100% 0%, 100% 100%, 18% 100%);
 }
-
+.logo {
+  width: 80px;
+  height: 80px;
+}
 .header-logo img {
   max-width: 100%;
 }
@@ -917,6 +920,7 @@ body.loaded {
 }
 
 /*** 5.0 - Menu Style ***/
+
 .header-menu-wrap {
   display: flex;
 }
@@ -1218,6 +1222,14 @@ body.loaded {
   }
 }
 
+.primary-header-inner .header-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  line-height: 80px;
+  margin-left: 20px;
+}
+
 .primary-header-inner {
   padding: 10px 0;
   display: flex;
@@ -1231,7 +1243,33 @@ body.loaded {
 }
 
 .viewport-lg .primary-header .header-menu-wrap {
-  display: block !important;
+}
+
+@media (max-width: 992px) {
+  .primary-header-inner {
+    padding: 0;
+  }
+
+  .sticky-header .primary-header-inner {
+    padding: 0;
+  }
+}
+
+@media (max-width: 992px) {
+  .header-menu-wrap {
+    top: 100%;
+  }
+
+  .primary-header .header-logo {
+    max-width: 180px;
+  }
+}
+
+@media (max-width: 767px) {
+  .primary-header .header-logo {
+    max-width: 160px;
+    padding: 15px 0;
+  }
 }
 
 /*  */
@@ -1268,14 +1306,6 @@ body.loaded {
 }
 .la-searchengin:before {
   content: "\f3eb";
-}
-
-.primary-header-inner .header-right {
-  display: flex;
-  gap: 20px;
-  align-items: center;
-  line-height: 80px;
-  margin-left: 20px;
 }
 
 .searches-icon {
@@ -1404,22 +1434,6 @@ body.loaded {
   -webkit-font-smoothing: antialiased;
   position: relative;
   z-index: 1;
-}
-
-.primary-header-inner {
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-}
-
-.primary-header .header-logo {
-  max-width: 150px;
-}
-
-.viewport-lg .primary-header .header-menu-wrap {
-  display: block !important;
 }
 
 /*** 7.0 - Popup Search Box ***/
@@ -2848,4 +2862,10 @@ body.loaded {
 /* gamer */
 .pagination-page {
   text-align: center;
+}
+
+/* match-detail-time */
+.match-detail-time li {
+  display: inline-block;
+  padding-right: 10px;
 }

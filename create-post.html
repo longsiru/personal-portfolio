@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/swiper.min.css" />
     <link rel="stylesheet" href="css/animate.min.css" />
     <link rel="stylesheet" href="css/team-card.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/post.css" />
   </head>
   <body class="loaded">
     <div class="site-preloader">
@@ -109,12 +109,6 @@
       <div class="page-header-shape">
         <div class="shape"></div>
         <div class="shape center back teamdetail">
-          <ul class="teamdetail-info">
-            <li>100 <br />Matches Win</li>
-            <li>100 <br />Matches Loses</li>
-            <li>11 <br />Gamers</li>
-            <li>01 <br />Last Season Rank</li>
-          </ul>
           <div></div>
         </div>
         <div class="shape right"></div>
@@ -122,40 +116,63 @@
       <div class="container">
         <div class="page-header-info">
           <div class="page-header-up">
-            <img src="images/page-up2.jpg" alt="" class="page-header-img" />
+            <img src="images/page-up4.jpg" alt="" class="page-header-img" />
           </div>
-          <h2>Team Name</h2>
+          <h2>CREATE YOUR POST</h2>
         </div>
       </div>
     </section>
     <!-- /.page-header -->
 
-    <section class="about-team-section padding-top">
+    <section class="blog-section blog-page padding-top">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 offset-lg-2">
-            <div class="section-heading text-center">
-              <h3>About Galactic Squad</h3>
-              <h2>About The <span>Team</span></h2>
-              <p>
-                Online gaming is simply the playing of a video game over the
-                internet, usually with friends. Online games can be played on
-                any number of devices from dedicated video games consoles. For
-                these reasons, it’s important that trusted adults educate
-                themselves around what online gaming is and how they can ensure
-                children play safely.
-              </p>
-            </div>
-            <div class="col-md-12 padding-15" style="text-align: center">
-              <button id="submit" class="default-btn" type="submit">
-                <a href="team.html">Back</a> <span></span>
-              </button>
+            <div class="post-details">
+              <form
+                action="#"
+                method="post"
+                class="comment-form form-horizontal">
+                <div class="form-group row">
+                  <div class="col-md-12 padding-15">
+                    <textarea
+                      id="comment"
+                      name="comment"
+                      cols="30"
+                      rows="5"
+                      class="form-control comment"
+                      placeholder="Post Title*"
+                      required></textarea>
+                  </div>
+                  <div class="col-md-12 padding-15">
+                    <textarea
+                      id="comment"
+                      name="comment"
+                      cols="30"
+                      rows="5"
+                      class="form-control comment"
+                      placeholder="Post Content*"
+                      required
+                      style="height: 300px"></textarea>
+                  </div>
+
+                  <div class="col-md-12 padding-15">
+                    <button id="" class="default-btn" type="button">
+                      <a href="post.html">Back</a> <span></span>
+                    </button>
+                    <button id="submit" class="default-btn" type="submit">
+                      Submit Post<span></span>
+                    </button>
+                    <div id="form-messages" class="alert" role="alert"></div>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- /.about-team-section -->
+    <!--Blog Section-->
 
     <!--footer-section-->
     <footer class="footer-section">

@@ -11,6 +11,7 @@
   });
 
   $(document).ready(function () {
+    console.log("ready");
     // Main Header
     var primaryHeader = $(".primary-header"),
       headerClone = primaryHeader.clone();
@@ -31,6 +32,7 @@
 
     if ($(".primary-header").length) {
       $(".header .primary-header .burger-menu").on("click", function () {
+        console.log("menu");
         $(this).toggleClass("menu-open");
         $(".header .header-menu-wrap").slideToggle(300);
       });

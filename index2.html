@@ -1,58 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scapreloaderle=1.0" />
     <title>Document</title>
-    <link href="bootstrap/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/index2.css" />
-</head>
-<body>
-    <div class="banner-section-outer">
-        <header>
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <a class="navbar-brand" href="index.html"><figure class="mb-0"><img src="images/logo.png" alt=""></figure></a>
-                    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="about.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="games.html">Games</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="gallery.html">Gallery</a>
-                            </li>
-                            <li class="m-0">
-                                <a class="navbar-brand" href="index.html"><figure class="mb-0"><img src="assets/images/crox_logo.png" alt=""></figure></a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="match_detail.html">Detail</a>
-                            </li>
-                            <li class="nav-item mr-0">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                            <li class="nav-item mr-1 ml-0">
-                                <a class="nav-link login_btn" href="login.html">Log in</a>
-                            </li>
-                            <li class="nav-item ml-0">
-                                <a class="nav-link signup_btn" href="signup.html">Sign Up</a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
+
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.mina.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/responsivea.css" />
+    <link rel="stylesheet" href="css/header.css" />
+  </head>
+
+  <body class="loaded">
+    <div class="site-preloader">
+      <div class="spinner"></div>
+    </div>
+
+    <header class="header">
+      <!-- supportbar  area  start-->
+      <div class="supportbar-area-wrapper style-02">
+        <div class="container custom-container-01">
+          <div class="row">
+            <div class="col-12 col-sm-5 col-md-4 col-lg-2">
+              <div class="logo-wrapper">
+                <a href="#">
+                  <img
+                    src="images/black-cat-logo.png"
+                    alt="logo"
+                    style="width: 80px; height: 80px" />
+                </a>
+              </div>
             </div>
-        </header>
-        <script src="bootstrap/bootstrap.min.js"></script>
-</body>
+            <div class="col-12 col-sm-7 col-md-8 col-lg-10">
+              <div class="content">
+                <div class="nav-bnt">
+                  <ul>
+                    <li class="nav-item mr-1 ml-0">
+                      <a class="nav-link login_btn" href="login.html">Log in</a>
+                    </li>
+                    <li class="nav-item ml-0 p-3">
+                      <a class="nav-link signup_btn" href="signup.html"
+                        >Sign Up</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- supportbar  area  end-->
+
+      <!-- nav area start -->
+      <div class="nav-main-wrap-for-custom-style-01-v-02">
+        <nav
+          class="navbar navbar-area navbar-expand-lg has-topbar nav-style-01 custom-style-01 dark-bg-01 v-02">
+          <div class="container nav-container custom-container-01">
+            <div class="responsive-mobile-menu">
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#bizcoxx_main_menu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bizcoxx_main_menu">
+              <ul class="navbar-nav">
+                <li class="menu-item-has-children current-menu-item">
+                  <a href="#">HOME</a>
+                </li>
+                <li>
+                  <a href="match.html">MATCH</a>
+                </li>
+                <li>
+                  <a href="team.html">TEAM</a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="gamer.html">GAMER</a>
+                </li>
+                <li class="menu-item-has-children">
+                  <a href="post.html">POST</a>
+                </li>
+                <li class="">
+                  <a href="#">SHOP</a>
+                </li>
+              </ul>
+            </div>
+            <div class="nav-right-content v-02">
+              <div class="support-bar-search-box style-02">
+                <form action="index.html">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Search" />
+                    <button type="submit" class="search-btn">
+                      <img
+                        src="images/search-icon.png"
+                        alt=""
+                        class="search-icon-bnt pb-2" />
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- navbar area end -->
+    </header>
+    <!-- /.site-header-->
+
+    <div id="popup-search-box">
+      <div class="box-inner-wrap d-flex align-items-center">
+        <form id="form" action="#" method="get" role="search">
+          <input
+            id="popup-search"
+            type="text"
+            name="s"
+            placeholder="Type keywords here..." />
+          <button id="popup-search-button" type="submit" name="submit">
+            <i class="las la-search"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+    <!-- /#popup-search-box -->
+
+    <!--footer-section-->
+    <footer class="footer-section">
+      <div class="container">
+        <div class="row footer-items">
+          <div class="col-lg-4 col-sm-6 sm-padding">
+            <div class="footer-item">
+              <a class="brand" href="index.html"
+                ><img src="images/black-cat-logo.png" alt="logo"
+              /></a>
+              <p>
+                Our success in creating business is<br />
+                due in large part to our talented and<br />
+                highly committed team.
+              </p>
+              <ul class="social-list">
+                <li>
+                  <a href="#"
+                    ><img src="images/outline-facebook-icon.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="images/instagram-icon.png" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><img src="images/outline-youtube-icon.png" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="images/twitter-icon.png" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 sm-padding">
+            <div class="footer-item footer-list">
+              <div class="widget-title">
+                <h3>Usefull Links</h3>
+              </div>
+              <ul class="footer-links">
+                <li><a href="upcoming-matches.html">Tournaments</a></li>
+                <li><a href="faq-page.html">Help Center</a></li>
+                <li><a href="about.html">Privacy and Policy</a></li>
+                <li><a href="about.html">Terms of Use</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 sm-padding">
+            <div class="footer-item">
+              <div class="widget-title">
+                <h3>Contact Us</h3>
+              </div>
+              <ul class="footer-contact">
+                <li>
+                  <span>Location:</span>153 Williamson Plaza, Maggieberg, MT
+                  09514
+                </li>
+                <li><span>Join Us:</span>Info@YourGmail24.com</li>
+                <li><span>Phone:</span>+1 (062) 109-9222</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-wrap"></div>
+      <!--copyright-wrap-->
+    </footer>
+
+    <div id="scrollup">
+      <button id="scroll-top" class="scroll-to-top hover-target">
+        <i class="las la-arrow-up"></i>
+      </button>
+    </div>
+    <!--scrollup-->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
